@@ -10,7 +10,7 @@ def main():
     # TODO: replace C with the correct constants
     C = numpy.random.randn(12).astype('float32')
     # TODO: replace Y with the correct targets
-    Y = numpy.random.randn(N).astype('float32')
+    Y = numpy.random.rand(N).astype('float32')
 
     # target variables 
     X_ = numpy.random.rand(N, 4).astype('float32')
